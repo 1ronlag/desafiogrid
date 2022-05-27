@@ -44,10 +44,32 @@ height: 5vh;
     grid-area: sidebar;
     height: 56,2rem;
     border: solid 1px black;
+    padding-top: 1rem;
 }
 
+.content{
 
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    gap: 1rem;
 
+}
+
+.textmsb {
+
+    font-size: 2rem;
+}
+
+.textcatalogue{
+    font-size: 1rem;
+
+}
+
+.textcatalogue:hover{
+    color:orangered
+
+}
 
 
  /*main content/right side*/
